@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    std::string log_filename = "test_logs.log";  // Change this to your actual log file path
+    std::string log_filename = "logs_2024.log"
     extract_logs(log_filename, argv[1]);
 
     return 0;
